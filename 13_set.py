@@ -1,7 +1,6 @@
 # set 不支持元素重复
 
 """
-变量名 = {}
 变量名 = set()
 """
 
@@ -52,3 +51,28 @@ set5 = {1,2,3,4,5}
 i = 0
 for x in set5:
     print(x)
+
+"""
+{'kingram', 'anna', 'duo', 'brandon'} <class 'set'>
+{'brandon', 'anna', 'duo', 'jan', 'kingram'}
+{'anna', 'duo', 'jan', 'kingram'}
+anna
+{'duo', 'jan', 'kingram'}
+set()
+取差集
+{1, 2, 3}
+{1, 5, 6}
+{2, 3}
+消除差集
+{2, 3}
+{1, 5, 6}
+合并集合
+{2, 3}
+{1, 5, 6}
+{1, 2, 3, 5, 6}
+1
+2
+3
+4
+5
+"""
