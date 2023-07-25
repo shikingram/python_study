@@ -37,6 +37,11 @@ print(p.name)
 class Bird:
     name = None
     age = None
+    # 私有变量
+    __private_hobbit = None
+
+    def __private_func(self):
+        print("私有方法")
 
     def __init__(self, name, age):
         self.name = name
