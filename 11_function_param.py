@@ -51,3 +51,13 @@ test_func(compute)
 # 匿名函数传参
 
 test_func(lambda x, y: x + y)
+
+"""
+姓名：kingram年龄：25性别：男
+姓名：kingram年龄：25性别：男
+姓名：kingram年龄：25性别：男
+('kingram', '12', 18)
+kingram
+3
+3
+"""
