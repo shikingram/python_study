@@ -75,3 +75,15 @@ print(b3 >= b2)
 # eq 比较两个对象是否相等
 b4 = Bird("oo bond", 13)
 print(b4 == b3)
+
+
+"""
+kingram
+hi,i am kingram
+构造函数执行完毕
+kingram
+bird类对象，name=gg bond,age=11
+True
+True
+True
+"""
